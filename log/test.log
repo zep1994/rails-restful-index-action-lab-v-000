@@ -750,3 +750,7 @@ Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.2ms)
   [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
 Started GET "/students" for 127.0.0.1 at 2018-09-21 20:18:27 +0000
 Processing by StudentsController#index as HTML
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students"
+  Rendered students/index.html.erb within layouts/application (28.9ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.3ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
